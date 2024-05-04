@@ -1,4 +1,4 @@
-# Telegram Scraper
+# EMSdevs TG
 
 Welcome to the Telegram Scraper! This tool allows you to scrape members from Telegram groups and add them to your own group.
 
