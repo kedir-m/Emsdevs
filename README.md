@@ -1,22 +1,23 @@
-TUTORIAL:
+Telegram Scraper
+Welcome to the Telegram Scraper! This tool allows you to scrape members from Telegram groups and add them to your own group.
 
-INSTALLATION:
-1.) Install Python: https://www.python.org/downloads/ (While installing, make sure to check the option: Add to PATH)
-    -- for termux install python version 3.11 or python 3.12 for windows or linux 
-2.) Open cmd and install the requirements with this command: pip install -r requirements.txt
-3.) Create your API_ID and API_HASH here: https://my.telegram.org/auth
-    Paste your API_ID and API_HASH to credentials.txt (open credentials with notepad or text editor)
-    Take a look at credentials_example.txt
-    (Make sure to use many api's. For example: if you use 100 accounts, use atleast 10api's)
-
-HOW TO RUN THE APP:
-1.) Open cmd and type python main.pyc, if you are using termux use main_termux.pyc instead.
-2.) Login the accounts with the first option. (Multiple accounts are possible)
-3.) Scrape a group of your choice (Will be saved into teammember.csv)
-4.) Add the scraped members to your own group.
-    After finishing, scrape a group again.
-
-IMPORTANT: DONT TOUCH THE NUMBERS AND NUMBERS_BACKUP FILE! IF YOU WANT TO DELETE ACCOUNTS FROM THE APP THEN USE THE DELETE FUNCTION FROM THE main.pyc APP!
-
-For any support, bug-fixes or suggestions for more features contact tg: @EmsdevsTgSupport
-More features will be added soon
+Installation
+Install Python: Download and install Python from here. Make sure to check the option to add Python to your PATH during installation.
+For Termux: Install Python version 3.11 or Python 3.12.
+For Windows or Linux: Any Python version should work.
+Install Requirements: Open a command prompt and navigate to the project directory. Then, install the required packages using the following command:
+Copy code
+pip install -r requirements.txt
+Create API_ID and API_HASH: Visit https://my.telegram.org/auth to generate your API_ID and API_HASH. Paste these credentials into credentials.txt (open with a text editor). Refer to credentials_example.txt for guidance. Ensure to use multiple API's if using multiple accounts (e.g., 10 API's for 100 accounts).
+How to Run the App
+Launch the App: Open a command prompt and run main.pyc using the following command:
+css
+Copy code
+python main.pyc
+For Termux users, run main_termux.pyc instead.
+Login: Use the first option to login to your accounts. Multiple accounts are supported.
+Scrape Members: Choose a group to scrape members from. The scraped data will be saved into teammember.csv.
+Add Members: Add the scraped members to your own group. Once done, you can scrape another group if needed.
+Important Notes
+Do Not Modify Files: Do not modify the numbers and numbers_backup files. Use the delete function within the app (main.pyc) to remove accounts.
+For any support, bug fixes, or feature suggestions, please contact @EmsdevsTgSupport. Stay tuned for more features!
