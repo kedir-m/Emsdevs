@@ -14,9 +14,9 @@ Welcome to the Telegram Scraper! This tool allows you to scrape members from Tel
 
 ## How to Run the App
 
-1. **Launch the App**: Open a command prompt and run `main.pyc` using the following command:
+1. **Launch the App**: Open a command prompt and run `python3.12 main.pyc` using the following command:
 
-   For Termux users, run `main_termux.pyc` instead.
+   For Termux users, run `python main_termux.pyc` instead.
 
 2. **Login**: Use the first option to login to your accounts. Multiple accounts are supported.
 
