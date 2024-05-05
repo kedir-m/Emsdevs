@@ -32,4 +32,4 @@ For any support, bug fixes, or feature suggestions, please contact [@EmsdevsTgSu
 
 ---
 
-More features will be added soon. Thank you for using the Telegram Scraper!
+More features will be added soon. Thank you for using the EMSdevs TG!
